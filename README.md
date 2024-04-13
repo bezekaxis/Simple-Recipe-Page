@@ -1,11 +1,9 @@
 
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
-## Overview
-
 ### Screenshot
 
-![Alt text](./solution-scsht.png?raw=true "Optional Title")
+[![solution-scsht.png](https://i.postimg.cc/MK9f73NQ/solution-scsht.png)](https://postimg.cc/ppndxC2W)
 
 ## My process
 
