@@ -5,11 +5,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./solution-scsht.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+![Alt text](./solution-scsht.png?raw=true "Optional Title")
 
 ## My process
 
