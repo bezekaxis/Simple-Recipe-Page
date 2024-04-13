@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: outfit;
+}
+main {
+  display: inline-block;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin: 7% 25% 5%;
+}
+
+main img {
+  width: 90%;
+  margin: 5%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+article, header, section {
+  background-color: hsl(0, 0%, 100%);
+  margin: 0px 40px 0px 40px;
+}
+header h1 {
+  font-family: Young serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 15px;
+}
+header p {
+  color:hsl(30, 10%, 34%);
+  margin-bottom: 50px;
+}
+p {
+  line-height: 25px;
+}
+
+article {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0px 40px 40px 40px;
+}
+article h3 {
+  margin-bottom: 20px;
+  color: hsl(332, 51%, 32%);
+}
+li {
+  padding-left: 10px;
+  list-style-position: outside;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+}
+article li::marker {
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+section {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+}
+section h2 {
+  margin-bottom: 20px;
+  font-family: Young serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+}
+section li::marker {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+.nutrition-section {
+  border-bottom: none;
+  padding-bottom: 30px;
+}
+section p {
+  color:hsl(30, 10%, 34%);
+  margin-bottom: 20px;
+}
+section table {
+  text-align: left;
+  text-indent: 20px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+section tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+section tr:last-child {
+  border: none;
+}
+section th, td {
+  padding: 10px;
+}
+section th {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+section td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+@media (min-width: 0px) and (max-width: 600px) {
+  main {
+    margin: 0px 0px 10px 0px;
+    border-radius: 0;
+  }
+  main img {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 30px;
+  }
+  main h1 {
+    line-height: 35px;
+    margin-bottom: 25px;
+    font-size: 2.1em;
+  }
+  article, header, section {
+    margin: 0px 30px 20px 30px;
+  }
+  article {
+    padding: 20px
+  }
+}
